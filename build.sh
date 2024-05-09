@@ -95,5 +95,6 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
-
+log "ReVanced by @ReVanced"
+log "ReVanced-Extended by @inotia00"
 pr "Done"
