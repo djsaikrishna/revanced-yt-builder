@@ -24,7 +24,7 @@ if [ ! -f "$HTMLQ" ]; then
 fi
 
 log "**Changelog**: [ReVanced-Extended](https://github.com/inotia00/revanced-patches/releases/) | [Revanced](https://github.com/revanced/revanced-patches/releases/)"
-log "**Note**: _MicroG must be installed!_"
+log "**Note**: _[Revanced microG](https://github.com/Revanced/GmsCore/releases/latest) must be installed!_"
 log "## **Only for *arm64-v8a* devices**\n"
 
 set_prebuilts() {
